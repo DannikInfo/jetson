@@ -12,6 +12,6 @@
 - CentralManager (Планируется)
 
 ## Библиотеки
-- <a href="/DannikInfo/tinyLoggerCpp">tinyLogger</a> (с++, поддержка, код открыт)
-- <a href="/DannikInfo/tinyConfigCpp">tinyConfig</a> (с++, доработка и улучшения, код открыт)
-- tinyUtils (с++, разработка ведется, код будет открыт)
+- <a href="/DannikInfo/tinyLoggerCpp">TinyLogger</a> (с++, поддержка, код открыт)
+- <a href="/DannikInfo/tinyConfigCpp">TinyConfig</a> (с++, доработка и улучшения, код открыт)
+- <a href="/DannikInfo/tinyUtilsCpp">TinyUtils</a> (с++, разработка ведется, код открыт)
