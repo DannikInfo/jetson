@@ -1,17 +1,31 @@
-# METIDA MLAS - Machine Learning Automation System
+# METIDA MLops - Machine Learning Operations
 В репозитории хранится описание проекта
 
+Децентрализованная система автоматизации процессов машинного обучения
+
 ## Модули
-- Server (с++, разработка ведется, код закрыт, алгоритмы будут открыты)
-- Client (с++, разработка ведется, код закрыт, алгоритмы будут открыты)
-- <a href="/DannikInfo/SQLCacher">SQLCacher</a> (с++, разработка ведется, код открыт)  
-- <a href="/DannikInfo/metida-Telemetry">Telemetry</a> (с++, разработка ведется, код открыт)
-- Frontend(Control/stats) (ReactJS, разработка ведется, код будет открыт)
-- Backend(Control/stats) (Go, разработка ведется, код будет открыт)
-- ClusterBroker (Планируется)
-- CentralManager (Планируется)
+### Клиент
+- <a href="/kozlovskiy-di/METIDAClient">Detector</a> (с++?, доработка)
+- <a href="/kozlovskiy-di/dataCacher">DataCacher</a> (Go, поддержка)  
+- Включает: все универсальные
+### Кластер
+- ClusterBroker (Базируется на Kubernetes)
+- <a href="/kozlovskiy-di/DataProcessor">DataProcessor</a> (?, проектирование)
+- <a href="/kozlovskiy-di/metida-Learner">Learner</a> (?, проектирование)
+- <a href="/kozlovskiy-di/metida-Tester">Tester</a> (?, проектирование)  
+- <a href="/kozlovskiy-di/modelCacher">ModelCacher</a> (?, Проектирование стоит использовать DVC)  
+- Включает: все универсальные
+### Универсальные
+- <a href="/kozlovskiy-di/SQLCacher">SQLCacher</a> (с++, поддержка)  
+- <a href="/kozlovskiy-di/metida-Telemetry">Telemetry</a> (с++, разработка ведется)
+### Веб
+- <a href="/kozlovskiy-di/front-end">Frontend</a> (Control/stats) (ReactJS, разработка ведется)
+- <a href="/kozlovskiy-di/METIDA-back-end">Backend</a> (Control/stats) (Go, разработка ведется)
+- Storage
+- PostgreSQL
+- CI/CD
 
 ## Библиотеки
-- <a href="/DannikInfo/tinyLoggerCpp">tinyLogger</a> (с++, поддержка, код открыт)
-- <a href="/DannikInfo/tinyConfigCpp">tinyConfig</a> (с++, доработка и улучшения, код открыт)
-- tinyUtils (с++, разработка ведется, код будет открыт)
+- <a href="/kozlovskiy-di/tinyLogger">tinyLogger</a> (с++, поддержка)
+- <a href="/kozlovskiy-di/tinyConfig">tinyConfig</a> (с++, доработка и улучшения)
+- <a href="/kozlovskiy-di/tinyUtils">tinyUtils</a> (с++, разработка ведется)
