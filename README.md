@@ -13,7 +13,7 @@
 ### Кластер
 - ClusterBroker
 - <a href="/kozlovskiy-di/DataProcessor">DataProcessor</a> (c++, разработка ведется)
-- <a href="/kozlovskiy-di/metida-trainer">Trainer</a> (?, проектирование)
+- <a href="/kozlovskiy-di/metida-trainer">Trainer</a> (Python, проектирование)
 - <a href="/kozlovskiy-di/metida-examinator">Examinator</a> (?, проектирование)  
 - <a href="/kozlovskiy-di/CIManager">CIManager</a> (?, Проектирование)  
 ### Веб
